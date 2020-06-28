@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.primary-heading {
+  text-align: center;
+  padding: 7px;
+  text-shadow: aliceblue 2px 2px 8px;
+
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(129, 126, 126),
+    rgb(207, 207, 202)
+  );
+  margin: 0px auto;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    margin: auto;
+  }
+}
